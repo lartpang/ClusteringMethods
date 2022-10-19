@@ -30,7 +30,7 @@ pts = dict(
 )
 
 K = 3
-
+random.seed(0)
 pt_names = list(pts.keys())
 # centroids = [random.choice([pt["value"] for pt in pts.values()])]
 centroids = [pts["d"]["value"]]
